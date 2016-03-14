@@ -11,10 +11,12 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <% //si no esta logeado no le dejamos ver esta parte %>
         <div>
             <p><a href="calculadora.jsp">Calculadora</a></p>
             <p><a href="tabla.jsp">Tabla de multiplicar</a></p>
             <p></p>
         </div>
+      
     </body>
 </html>

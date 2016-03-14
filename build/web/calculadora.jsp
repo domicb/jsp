@@ -7,9 +7,9 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <%
-    int numero = 0;
-    int numero2 = 0;
-    int res = 0;
+    float numero = 0;
+    float numero2 = 0;
+    float res = 0;
     String operador = "";
     String salida = "";
     Boolean recurso = false;
@@ -76,7 +76,7 @@
             <input type="submit" name="enviar" value="Realizar Operación">
         </form>
         <hr>
-        <a href="index.html"> Volver al menú</a>
+        <a href="index.jsp.html"> Volver al menú</a>
     </center>   
 </body>
 </html>
